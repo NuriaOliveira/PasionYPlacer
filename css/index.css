@@ -1,0 +1,11 @@
+main {
+    background-image: url(../img/fondo_index.jpg);
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+}

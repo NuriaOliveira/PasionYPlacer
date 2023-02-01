@@ -1,0 +1,31 @@
+main {
+    background-image: url(../img/fondo_nosotros.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.imagen {
+    width: 300px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img {
+    justify-content: flex-end;
+}
+
+.parrafo {
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+}

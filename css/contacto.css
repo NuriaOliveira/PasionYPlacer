@@ -1,0 +1,15 @@
+main {
+    background-image: url(../img/fondo_contacto.jpg);
+}
+
+h2 {
+    line-height: 2;
+}
+
+.marco {
+    border: groove;
+    width: 500px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
