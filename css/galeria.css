@@ -1,5 +1,23 @@
-main {
+.main {
     background-image: url(../img/fongo_galeria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.section img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section div {
+    margin: auto;
 }
