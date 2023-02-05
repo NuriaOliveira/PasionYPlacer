@@ -34,3 +34,17 @@ header {
     max-width: auto;
     max-height: auto;
 }
+
+@media screen and (max-width:480px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen {
+        width: 150px;
+        border-radius: 50%;
+    }
+    section div {
+        margin: auto;
+    }
+}

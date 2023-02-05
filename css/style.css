@@ -72,7 +72,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Arvo', serif;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
 }
 
 .footer ul {
@@ -80,4 +81,14 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media screen and (max-width:480px) {
+    .header nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
 }

@@ -1,11 +1,18 @@
-main {
+.main {
     background-image: url(../img/fondo_index.jpg);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 500px;
 }
 
-h1 {
-    color: black;
+.color_texto {
+    background-color: burlywood;
+}
+
+.main div {
+    margin: auto;
 }
