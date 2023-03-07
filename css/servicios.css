@@ -1,9 +1,13 @@
-main {
+.main {
     background-image: url(../img/fondo_servicios.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-.main nav ul a {
-    text-decoration: none;
+.main div {
+    background-color: brown;
+    margin: auto;
 }
